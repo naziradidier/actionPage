@@ -9,7 +9,7 @@
 <body>
 
     <?php include 'returnTable.php';
-    // var_dump($Personne);    
+    var_dump($Personne);    
     
         if($_GET["nom"]){
             for ($ligne= 0; $ligne < count($Personne); $ligne++) {
