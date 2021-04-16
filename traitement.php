@@ -8,6 +8,7 @@
 </head>
 <body>
 
+<!--    include ou importer un fichier php  -->
     <?php include 'returnTable.php';
     var_dump($Personne);    
     
